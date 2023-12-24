@@ -1,0 +1,30 @@
+{
+  "name": "trade_bot",
+  "version": "1.0.0",
+  "description": "binance trade bot",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./api/index.js",
+    "test": "test"
+  },
+  "keywords": [
+    "bot",
+    "trade",
+    "node",
+    "binance"
+  ],
+  "author": "Abraham_dsm",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.10.5"
+  },
+  "dependencies": {
+    "binance-api-node": "^0.12.7",
+    "comma-number": "^2.1.0",
+    "dotenv": "^16.3.1",
+    "node-binance-api": "^0.13.1",
+    "node-storage": "^0.0.9",
+    "web3": "^4.3.0"
+  }
+}
